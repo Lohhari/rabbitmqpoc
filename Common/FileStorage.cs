@@ -13,7 +13,7 @@ namespace Common
 {
     public class FileStorage
     {
-        const string RootPath = @"d:\t\";
+        const string RootPath = @"data";
 
         public static void CopyFileFrom(string fromPath, string toFileName, System.Guid projectId)
         {

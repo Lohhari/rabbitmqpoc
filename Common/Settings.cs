@@ -16,6 +16,7 @@ namespace Common
         public const string CombineQueueName = "combine";
 
         public const string InputFileName = "input.txt";
+        public const string OutputFileName = "output.txt";
         public const string InputSuffix = ".in.txt";
         public const string OutputSuffix = ".out.txt";
     }

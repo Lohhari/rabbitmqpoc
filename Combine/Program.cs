@@ -34,6 +34,7 @@ namespace Combine
 
                         int sum = CombineInput(message);
                         Console.WriteLine("Final result for Guid: {0} Project name: {1} is {2}", message.ProjectId, message.ProjectName, sum);
+                        Common.FileStorage.WriteFile(message.ProjectId, Common.Settings.OutputFileName, sum.ToString());
 
                         channel.BasicAck(ea.DeliveryTag, false);
                     }
