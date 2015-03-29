@@ -52,3 +52,7 @@ The data format is very simple. See the files in the testdata folder,
 they are nearly self-explanatory. The first line tells the dimensions of
 the space in X, Y and Z dimensions. The remaining lines are the data. One
 integer per cube.
+
+Flowchart
+---------
+![Flowchart](/flowchart.png?raw=true "Flowchart")
