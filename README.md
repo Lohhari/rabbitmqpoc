@@ -20,6 +20,17 @@ after completing its work. Collect is a very light step and you must only
 run one Collect.exe at a time. The five steps are described in more detail
 below.
 
+Usage
+-----
+1. Install [RabbitMQ](https://www.rabbitmq.com/download.html) server and run it
+2. Build the solution with Visual Studio (2013)
+3. Go to the bin folder. The data folder will be created under it by default.
+3. Start 1+ instaces of <code>Split.exe</code>
+4. Start 3+ instances of <code>Process.exe</code>
+5. Start 1 instance of <code>Collect.exe</code>
+6. Start 1+ instances of <code>Combine.exe</code>
+7. Enqueue work. <code>PushWork.exe 2x2x2.txt</code>
+
 PushWork
 --------
 PushWork.exe &lt;datafile.txt&gt;
